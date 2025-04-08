@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">english_app</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="login">Войти</string>
+    <string name="Register">Зарегестрироваться</string>
+    <string name="choose">Выбрать</string>
+</resources>

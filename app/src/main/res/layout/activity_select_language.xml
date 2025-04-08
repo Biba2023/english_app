@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectLanguageActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/deep_blue">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/fredoka"/>
+    </LinearLayout>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/russian"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/button_lang"
+    android:text="Russian"
+    android:textAllCaps="false"
+    android:textColor="@color/black"
+    android:fontFamily="@font/fredoka"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_lang"
+        android:text="English"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fredoka"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/belarus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_lang"
+        android:text="Belarus"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fredoka"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:text="@string/choose"/>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
